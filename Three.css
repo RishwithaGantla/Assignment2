@@ -210,7 +210,7 @@ font-weight: 500;
   display: inline-block;
 }
 .projects-list div p {
-  text-align: justify; /* Added this line */
+  text-align: justify; 
 }
 .projects-list div:hover {
   background: #820418 ;
@@ -394,6 +394,7 @@ nav .bi{
 @media only screen and (max-width: 600px){
   #header{
     background-image: url(Assets/smallscreenFinal.jpg);
+	background-size:auto;
   }
   .header-container-text{
     margin-top:100px;
